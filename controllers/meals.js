@@ -57,7 +57,7 @@ module.exports = {
   //     const { selectedGroceries, mealName } = req.body;
   
   //     // Retrieve the selected grocery items based on their IDs
-  //     const selectedItems = await Groceries.find({ _id: { $in: selectedGroceries } });
+  //     const selectedItems = await Groceries.find({ _id: { $: selectedGroceries } });
   
   //     // Create a new meal object and save it to your Meals model
   //     const newMeal = new Meal({
