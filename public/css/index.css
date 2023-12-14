@@ -1,0 +1,16 @@
+.indexh1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(47, 77, 90) -1px 0px 2px;
+    margin: 60px 0px 10px;
+}
+
+html,
+body {
+    background: linear-gradient(#ffffff, #9198e5);
+    height: 100%;
+}
